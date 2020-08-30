@@ -10,7 +10,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #7D8769;
+  background-color: #A27B01;
   border-radius: 0;
   border: 0;
   margin-bottom: 65px;
@@ -66,24 +66,24 @@ div ul li a {
 }
 .food-1{
   border: 1px solid #000;
-  background: #AEB0AA;
+  background-image: linear-gradient(to right top,#FF9E00 , #7249AE);
   color: #000;
   text-align: center;
   margin: 10px 10px 10px 25px ;
 }
 .food-2{
   border: 1px solid #000;
-  background: #AEB0AA;
+  background-image: linear-gradient(to right top, #7249AE,#FF9E00 );
   color: #000;
   text-align: center;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 25px;
 }
 .food-3{
   border: 1px solid #000;
-  background: #AEB0AA;
+  background-image: linear-gradient(to right top,#FF9E00 , #7249AE);
   color: #000;
   text-align: center;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 25px;
 }
 .foodname{
   color: #000;
