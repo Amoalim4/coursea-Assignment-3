@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #7D8769;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 65px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #B9E06A;
+}
+
+div ul li a {
+  color: #000;
+  font-size: 23px;
+  font-weight: bold;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+.ourmenu{
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.food-1{
+  border: 1px solid #000;
+  background: #AEB0AA;
+  color: #000;
+  text-align: center;
+  margin: 10px 10px 10px 25px ;
+}
+.food-2{
+  border: 1px solid #000;
+  background: #AEB0AA;
+  color: #000;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+.food-3{
+  border: 1px solid #000;
+  background: #AEB0AA;
+  color: #000;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+.foodname{
+  color: #000;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.goto{
+  text-align: center;
+}
+
+/*section {
+  position: relative;
+  padding: 15px;
+  width: 100%;
+}*/
+.row {
+  width: 100%;
+}
+/* from here is the style of how the viewers sees from
+diffrent typs of devics */ 
+
+/* DESKTOP MODE */
+
+@media (min-width: 991px) {
+  .column-lg {
+    float: left;
+    width: 33.33%;
+  }
+}
+/* TABLET MODE */
+
+
+@media (min-width: 641px) and (max-width: 990px) {
+  .colmn-md-1 {
+    float: left;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .colmn-md-2 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* MOBILE MODE */
+@media (max-width: 640px) {
+  .colmn-sm {
+    float: left;
+    clear: left;
+    width: 100%;
+  }
+}
+
+
