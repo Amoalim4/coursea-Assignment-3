@@ -96,11 +96,23 @@ div ul li a {
   font-size: 23px;
 }
 
-/*section {
-  position: relative;
-  padding: 15px;
-  width: 100%;
-}*/
+.link{
+  list-style: none;
+  margin: 10px 0 10px 40%;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(#424551,#424551),radial-gradient(circle at top left,#fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.link a:hover{
+  color: #fff;
+}
+
+
 .row {
   width: 100%;
 }
