@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  color: #B9E06A;
+  color: #05C4F7;
 }
 
 div ul li a {
@@ -92,8 +92,8 @@ div ul li a {
   font-weight: bold;
   text-align: center;
 }
-.goto{
-  text-align: center;
+.text-center{
+  font-size: 23px;
 }
 
 /*section {
@@ -118,7 +118,7 @@ diffrent typs of devics */
 /* TABLET MODE */
 
 
-@media (min-width: 641px) and (max-width: 990px) {
+@media (min-width: 550px) and (max-width: 990px) {
   .colmn-md-1 {
     float: left;
     width: 50%;
@@ -134,7 +134,7 @@ diffrent typs of devics */
   }
 }
 /* MOBILE MODE */
-@media (max-width: 640px) {
+@media (max-width: 549px) {
   .colmn-sm {
     float: left;
     clear: left;
