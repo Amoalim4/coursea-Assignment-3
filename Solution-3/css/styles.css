@@ -118,7 +118,7 @@ diffrent typs of devics */
 /* TABLET MODE */
 
 
-@media (min-width: 550px) and (max-width: 990px) {
+@media (min-width: 641px) and (max-width: 990px) {
   .colmn-md-1 {
     float: left;
     width: 50%;
@@ -134,7 +134,7 @@ diffrent typs of devics */
   }
 }
 /* MOBILE MODE */
-@media (max-width: 549px) {
+@media (max-width: 640px) {
   .colmn-sm {
     float: left;
     clear: left;
