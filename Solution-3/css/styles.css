@@ -138,6 +138,9 @@ diffrent typs of devics */
     margin-left: auto;
     margin-right: auto;
   }
+  .link{
+    margin: 10px 0 10px 30%;
+  }
   .colmn-md-2 {
     float: left;
     width: 100%;
@@ -151,6 +154,9 @@ diffrent typs of devics */
     float: left;
     clear: left;
     width: 100%;
+  }
+  .link{
+    margin: 10px 0 10px 20%;
   }
 }
 
