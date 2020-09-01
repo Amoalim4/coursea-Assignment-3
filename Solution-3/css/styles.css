@@ -111,8 +111,8 @@ div ul li a {
   background-clip: content-box, border-box;
 }
 .link a{
-  color: #fff;
-  margin: 20px 20px 20px 40px;
+  color: rgba(255, 255, 255, 0.603);
+  margin: 20px 20px 20px 43px;
 }
 .link a:hover{
   color: blue;
